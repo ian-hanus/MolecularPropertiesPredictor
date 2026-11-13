@@ -1,6 +1,6 @@
 # Designing Selective Kinase Inhibitors
 ## Initial Thoughts
-I will be attempting to predict pKi of a compound given the SMILES representation of a molecule. After reviewing the data, I want to take two different approaches to the modeling and compare them to each other. The first approach will be based on the molecular descriptors available in RDKit, and will utilize a classic multilayer perceptron network. The second approach is a graph based convolutional neural network, utilizing the spatial relations contained in the SMILES molecular representation.
+Predict pKi of a compound given the SMILES representation of a molecule. After reviewing the data, we take two different approaches to the modeling and compare them to each other. The first approach will be based on the molecular descriptors available in RDKit, and will utilize a classic multilayer perceptron network. The second approach is a graph based convolutional neural network, utilizing the spatial relations contained in the SMILES molecular representation.
 
 ## Molecular Descriptor-Based MLP
 The descriptor-based MLP process can be found in the following files, in the following order:
